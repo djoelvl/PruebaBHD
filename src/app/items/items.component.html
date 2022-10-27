@@ -1,0 +1,8 @@
+<ul *ngFor="let item of items">
+  <li>{{item.albumId}}</li>
+  <li>{{item.id}}</li>
+  <li>{{item.title}}</li>
+  <li>{{item.url}}</li>
+  <li>{{item.thumbnailUrl}}</li>
+  <button (click)="addToCar(item.id!)">Agregar</button>
+</ul>
